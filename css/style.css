@@ -25,9 +25,7 @@ body{
 
 }
 
-.lists{
-    margin-top: 20px;
-}
+
 
 .button{
 
@@ -77,6 +75,24 @@ vertical-align: middle;
 
 }
 
+/* Liste e sezioni */
+
+.lists{
+    margin-top: 20px;
+}
+
+.task-section{
+    margin-bottom: 35px;
+}
+
+.task-section h3{
+    margin-bottom: 10px;
+}
+
+.task-section li{
+    margin-bottom: 10px;
+}
+
 .task-label{
     display: inline-block;
     color: white;
@@ -86,6 +102,27 @@ vertical-align: middle;
     vertical-align: middle;
 }
 
+ul{
+    list-style: none;
+}
+
+/* Background labels */
+
 .label-blue{
     background-color: #47A9E7;
+}
+.label-purple{
+    background-color: #9C72E5;
+}
+.label-green{
+    background-color: #67BEA6
+}
+.label-orange{
+    background-color: #FB9C2F;
+}
+.label-pink{
+    background-color: #D8669E;
+}
+.label-lightgreen{
+    background-color: #AFC928;
 }
